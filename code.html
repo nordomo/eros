@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MatchScore | Optimize Your Dating Profile</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#ff2e54",
+                "background-light": "#f8f5f6",
+                "background-dark": "#230f13",
+              },
+              fontFamily: {
+                "display": ["Inter", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.75rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 46, 84, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 46, 84, 0.1);
+        }
+        .glass-card-hover:hover {
+            background: rgba(255, 46, 84, 0.1);
+            border: 1px solid rgba(255, 46, 84, 0.2);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased overflow-x-hidden">
+<!-- Header -->
+<header class="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-16">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">table_chart_view</span>
+<span class="text-xl font-black tracking-tight text-slate-900 dark:text-white uppercase">MatchScore</span>
+</div>
+<nav class="hidden md:flex space-x-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#how-it-works">How it Works</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#results">Results</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#pricing">Pricing</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#faq">FAQ</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-all shadow-lg shadow-primary/20">
+                        Get Started
+                    </button>
+</div>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative pt-20 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent -z-10"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="text-center lg:text-left">
+<h1 class="text-4xl md:text-6xl font-black leading-tight tracking-tight mb-6">
+                            Your Dating Profile Is <span class="text-primary">Costing You Matches</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 mb-10 max-w-2xl mx-auto lg:mx-0">
+                            Get a professional profile audit that optimizes your profile for higher match rates on Hinge, Tinder, and Bumble. Stop guessing and start matching.
+                        </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+<button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-primary/30 flex items-center justify-center gap-2">
+                                Get My Profile Audit <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="bg-slate-200 dark:bg-primary/10 text-slate-900 dark:text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-slate-300 dark:hover:bg-primary/20 transition-all flex items-center justify-center gap-2">
+                                See Example Report <span class="material-symbols-outlined">visibility</span>
+</button>
+</div>
+</div>
+<div class="relative">
+<div class="glass-card rounded-2xl p-6 shadow-2xl relative z-10">
+<div class="flex items-center justify-between mb-8 border-b border-primary/20 pb-4">
+<div>
+<p class="text-xs uppercase tracking-widest text-primary font-bold">Audit Dashboard</p>
+<h3 class="text-xl font-bold">Profile Score: 84/100</h3>
+</div>
+<div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">trending_up</span>
+</div>
+</div>
+<div class="space-y-6">
+<div class="h-48 w-full rounded-lg bg-cover bg-center mb-4" data-alt="Modern dating profile photo mockup" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB0rmlRsnQ1ZzzcRDv9KkS652YrZ5c7CiT0cfBcbYxNYO3HzdAKA50wtnFH7uj3onNOwH0lNo7S-ZZsS2nUCmGAluHLKrmbodTkbQnROeqs0oC3T1ZYtePBADlkD67kSzpwbVj3jJ4Kf3ns2t_f3zugATau9ZKRShYW3LMypaVs1AETOJU5TVLP9Q_bOEPs15skO6bsxiX-g2jsbDbi6t9S6vAolOQ5-a90HdXJxKi-y7WU3KU4rPYKXUm7Ozv4c_Y6WL24jG0h')"></div>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-3 bg-white/5 rounded-lg border border-white/10">
+<p class="text-xs text-slate-400">Photo Quality</p>
+<p class="font-bold text-primary">High Potential</p>
+</div>
+<div class="p-3 bg-white/5 rounded-lg border border-white/10">
+<p class="text-xs text-slate-400">Bio Strength</p>
+<p class="font-bold text-primary">Weak (Needs Edit)</p>
+</div>
+</div>
+<div class="bg-primary/10 p-4 rounded-lg">
+<p class="text-sm font-medium">Expert Recommendation:</p>
+<p class="text-xs text-slate-400 italic">"Replace photo #3 with a lifestyle shot. Rewrite prompt #1 to spark curiosity."</p>
+</div>
+</div>
+</div>
+<div class="absolute -top-6 -right-6 w-32 h-32 bg-primary/20 blur-3xl rounded-full"></div>
+<div class="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/20 blur-3xl rounded-full"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Problem Section -->
+<section class="py-24 bg-background-light dark:bg-slate-900/30">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-black mb-4">Why Most Dating Profiles Fail</h2>
+<p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Invisible barriers are preventing you from connecting with the matches you deserve.</p>
+</div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="glass-card p-6 rounded-xl glass-card-hover">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">videocam_off</span>
+<h3 class="text-lg font-bold mb-2">Bad Photo Strategy</h3>
+<p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Using low-quality, group, or mirror selfies that hide your true personality.</p>
+</div>
+<div class="glass-card p-6 rounded-xl glass-card-hover">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">edit_note</span>
+<h3 class="text-lg font-bold mb-2">Generic Bios</h3>
+<p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">"I love travel and food" — if everyone says it, nobody stands out.</p>
+</div>
+<div class="glass-card p-6 rounded-xl glass-card-hover">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">chat_bubble_outline</span>
+<h3 class="text-lg font-bold mb-2">Weak Prompts</h3>
+<p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Missed opportunities to give potential matches an easy way to message you.</p>
+</div>
+<div class="glass-card p-6 rounded-xl glass-card-hover">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">person_search</span>
+<h3 class="text-lg font-bold mb-2">Wrong Signals</h3>
+<p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Your profile might be projecting a vibe that's inconsistent with what you want.</p>
+</div>
+</div>
+</section>
+<!-- Solution Section -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div class="max-w-xl">
+<h2 class="text-3xl md:text-4xl font-black mb-4">Get a Data-Driven Optimization</h2>
+<p class="text-slate-600 dark:text-slate-400">Our comprehensive audit covers every touchpoint of your digital first impression.</p>
+</div>
+</div>
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-primary/5 transition-colors group">
+<div class="bg-primary/10 p-3 rounded-lg group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">analytics</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Attractiveness Score</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">A numerical benchmark of how your current profile performs against top-tier accounts.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-primary/5 transition-colors group">
+<div class="bg-primary/10 p-3 rounded-lg group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">leaderboard</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Photo Ranking Analysis</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">We rank your existing photos so you know exactly which ones to keep and which to cut.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-primary/5 transition-colors group">
+<div class="bg-primary/10 p-3 rounded-lg group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">reorder</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Optimized Photo Order</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Psychology-backed ordering to maximize swiping engagement and hook interest.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-primary/5 transition-colors group">
+<div class="bg-primary/10 p-3 rounded-lg group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">text_increase</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Bio Rewrite</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Expert copywriters craft a bio that highlights your best traits while remaining authentic.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-primary/5 transition-colors group">
+<div class="bg-primary/10 p-3 rounded-lg group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">auto_awesome</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Prompt Optimization</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Curated questions and answers designed to trigger engagement and conversations.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl hover:bg-primary/5 transition-colors group">
+<div class="bg-primary/10 p-3 rounded-lg group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">forum</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Custom Message Openers</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Frameworks and templates for starting conversations that actually get replies.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How It Works -->
+<section class="py-24 bg-background-light dark:bg-slate-900/50" id="how-it-works">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-black mb-4">How It Works</h2>
+<p class="text-slate-600 dark:text-slate-400">Three simple steps to a better dating life.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-12">
+<div class="text-center">
+<div class="w-16 h-16 bg-primary text-white text-2xl font-black rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg shadow-primary/30">1</div>
+<h3 class="text-xl font-bold mb-3">Upload Screenshots</h3>
+<p class="text-slate-600 dark:text-slate-400">Send us screenshots of your current dating profile or your best potential photos.</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 bg-primary text-white text-2xl font-black rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg shadow-primary/30">2</div>
+<h3 class="text-xl font-bold mb-3">Expert Analysis</h3>
+<p class="text-slate-600 dark:text-slate-400">Our experts analyze your profile using data from thousands of successful profiles.</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 bg-primary text-white text-2xl font-black rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg shadow-primary/30">3</div>
+<h3 class="text-xl font-bold mb-3">Receive Your Report</h3>
+<p class="text-slate-600 dark:text-slate-400">Get a detailed PDF report with actionable steps to transform your match rate instantly.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Results/Benefits -->
+<section class="py-24" id="results">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-4">
+<div class="h-64 rounded-2xl bg-cover bg-center" data-alt="High quality lifestyle photo for dating profile" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAfPJQGn1ac21-gAfqqsysSacf2ULhI1aH3oFxzaGVwJO-qzkMdTXu7nC_W3KrLaOtUmCPbeSESUfZE2KEI5qsympvvdzR72nKRKfa5bH_3YGaaReHocYPOu7KijC1QcGy6EN2wCP8aiyATvDXUMn8YNVXiratrsypH6HKgn52Mz2BZWg3xBisZvZywRB_J9AjG9cWYBOHcFClXfLR0fyAblOZpTYeayfhj2wLtojUU8y2sF6uR1Oib7UwcpTOFWWSzD9zChWsL')"></div>
+<div class="h-48 rounded-2xl bg-cover bg-center" data-alt="Professional portrait for dating profile" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBZ1SyfbZ0ooaYfo-O73DB8jrdZPzoiB5XPzpYbrpJrZDMBBpm-6h2hoRdPre1nmCA8QTGGN3ltv_dxavAVbYaEBdV9FUUhrAgmImE01wS2hb6pc3FbR6rgGinpDy6xCDqJxKTquWcygZPdb2CkkcBpvLQIIlaFkm9Bwn38Jpkr7ddQgjhGjk_zGUN-FhGghPyQOrgdSW31EIrHUgBqBW-2ks1MFO13RHG1170gWvllYargpf0A_S2YEK3KWJxa5hmxjD52c6Tn')"></div>
+</div>
+<div class="space-y-4 pt-8">
+<div class="h-48 rounded-2xl bg-cover bg-center" data-alt="Candid activity photo for dating profile" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA5cKw6-D_4kCJ5RjMnHuDxIynCR4RFZlGT5LQXRJG8WnR6lASsN6Do97Qru0bB7PNmVZcsaaJuz5EMij3ZZ-Uop3ZNW9oXy05gKdiISQl0Hr2JKGT3i4A6bskBQ3ylfK6Krht55Eh6lQSatx50bgKFR_E1IwaTCaqk57Hp0VZiY1V7f46ymaWEWf_Z2h-6dcTgELziWgMv7LqQ24_rEXwvHaV1HOrSieLf9LBe8W12RPVBtiw-LJ_pgLQl6rb1ylnhhJLbxlGV')"></div>
+<div class="h-64 rounded-2xl bg-cover bg-center" data-alt="Social setting photo for dating profile" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD_fb84-04QMAN8W5gjfiGGYhpFp3JqNj7ltlhU2sQErvtYU_fvBT3hZtwJqbwfKD6fgm7mopzDR6YrN1oGckBiZ1Wjw9zfLqVB84r2Dv5Uu5SokaxngVbk1VrZB-6GeSZ1O2WYwW1ajxNkVvqwjdoFS_2yWxfZPyBJL_AFECf32Dk-97VEb5edwfj77ZUoXwjEVRcNGEn6etgvdQj8mVVpkBr8c9L2Ggl9089lCyFTrxmMdxFFembDCVFzuXUFMyYT9hQ3J4YZ')"></div>
+</div>
+</div>
+<div>
+<h2 class="text-3xl md:text-4xl font-black mb-6">What a Winning Profile Looks Like</h2>
+<p class="text-slate-600 dark:text-slate-400 mb-8">We help you build a profile that hits all the psychological triggers for a 'swipe right'.</p>
+<ul class="space-y-6">
+<li class="flex gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<div>
+<h4 class="font-bold">Clear Eye Contact</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Your first photo should be a high-quality headshot that builds immediate trust.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<div>
+<h4 class="font-bold">Balanced Lifestyle Mix</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">A variety of shots showing hobbies, social life, and different environments.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<div>
+<h4 class="font-bold">Spark Conversation</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Bios and prompts that act as a "hook" making it easy for others to start a chat.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Pricing Section -->
+<section class="py-24 bg-background-light dark:bg-slate-900/30" id="pricing">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-black mb-4">Choose Your Audit</h2>
+<p class="text-slate-600 dark:text-slate-400">Invest in your romantic future.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+<div class="glass-card p-8 rounded-2xl flex flex-col">
+<div class="mb-8">
+<h3 class="text-xl font-bold mb-2">Starter Profile Audit</h3>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-black">€29</span>
+<span class="text-slate-500">/one-time</span>
+</div>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">done</span> Profile Score Report
+                            </li>
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">done</span> Photo Ranking (Top 6)
+                            </li>
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">done</span> 3 Bio Variations
+                            </li>
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">done</span> Basic App Settings Tips
+                            </li>
+</ul>
+<button class="w-full py-4 rounded-xl border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all">Get Starter Audit</button>
+</div>
+<div class="bg-primary p-8 rounded-2xl flex flex-col text-white shadow-2xl shadow-primary/20 relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-white/20 px-4 py-1 rounded-bl-xl font-bold text-xs uppercase tracking-widest">Most Popular</div>
+<div class="mb-8">
+<h3 class="text-xl font-bold mb-2">Premium Optimization</h3>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-black">€79</span>
+<span class="text-white/80">/one-time</span>
+</div>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center gap-3 text-sm font-medium">
+<span class="material-symbols-outlined text-xl">done</span> Everything in Starter
+                            </li>
+<li class="flex items-center gap-3 text-sm font-medium">
+<span class="material-symbols-outlined text-xl">done</span> AI-Powered Bio Suite
+                            </li>
+<li class="flex items-center gap-3 text-sm font-medium">
+<span class="material-symbols-outlined text-xl">done</span> 10 Conversation Starters
+                            </li>
+<li class="flex items-center gap-3 text-sm font-medium">
+<span class="material-symbols-outlined text-xl">done</span> Custom Photo Edit Suggestion
+                            </li>
+<li class="flex items-center gap-3 text-sm font-medium">
+<span class="material-symbols-outlined text-xl">done</span> 24h Express Delivery
+                            </li>
+</ul>
+<button class="w-full py-4 rounded-xl bg-white text-primary font-bold hover:bg-slate-100 transition-all">Get Premium Optimization</button>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24" id="faq">
+<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-black mb-4">Frequently Asked Questions</h2>
+</div>
+<div class="space-y-4">
+<div class="glass-card p-6 rounded-xl">
+<h4 class="font-bold mb-2">How long does the audit take?</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Standard audits are delivered within 48-72 hours. Premium audits are expedited and typically arrive within 24 hours.</p>
+</div>
+<div class="glass-card p-6 rounded-xl">
+<h4 class="font-bold mb-2">Which apps do you support?</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">We specialize in Hinge, Tinder, and Bumble, but the principles we apply work across almost any visual dating platform.</p>
+</div>
+<div class="glass-card p-6 rounded-xl">
+<h4 class="font-bold mb-2">Do you provide a match guarantee?</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">While we can't control the algorithms, our clients typically see a 2x-3x increase in match quality and frequency within two weeks of implementing our changes.</p>
+</div>
+<div class="glass-card p-6 rounded-xl">
+<h4 class="font-bold mb-2">What kind of photos should I upload?</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Upload current profile screenshots plus any other photos you're considering. The more variety you provide, the better our analysis will be.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-24 bg-primary">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+<h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">Upgrade Your Dating Profile Today</h2>
+<p class="text-lg opacity-90 mb-10">Stop leaving your romantic life to chance. Get professional feedback that gets results.</p>
+<button class="bg-white text-primary px-10 py-5 rounded-2xl text-xl font-bold hover:bg-slate-100 transition-all shadow-2xl">
+                    Get My Profile Audit
+                </button>
+<p class="mt-8 text-sm opacity-75 italic">Secure payment via Stripe. No hidden fees.</p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-light dark:bg-background-dark border-t border-primary/10 py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-2xl">table_chart_view</span>
+<span class="text-lg font-black tracking-tight uppercase">MatchScore</span>
+</div>
+<div class="flex gap-8 text-sm font-medium text-slate-500">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<div class="text-sm text-slate-500">
+                    © 2024 MatchScore. All rights reserved.
+                </div>
+</div>
+</div>
+</footer>
+</body></html>
