@@ -529,59 +529,67 @@
         </div>
       </section>
 
-      <!-- Example Report -->
-      <section class="py-24" id="example-report">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-10">
-            <h2 class="text-3xl md:text-4xl font-black mb-4">Example Report</h2>
-            <p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-              This is a placeholder section. Link this button to a PDF (Google Drive) or to a dedicated page.
-            </p>
-          </div>
+      <!-- Example Report + Upload (Side-by-side on desktop) -->
+<section class="py-24 bg-background-light dark:bg-slate-900/30" id="resources">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-black mb-4">Example Report & Upload</h2>
+      <p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+        See an example of what you’ll receive, then upload your profile after purchase.
+      </p>
+    </div>
 
-          <div class="max-w-2xl mx-auto glass-card p-8 rounded-2xl text-center">
-            <p class="text-sm text-slate-600 dark:text-slate-400">
-              Add your PDF link here:
-            </p>
-            <a
-              href="REPLACE_ME_EXAMPLE_REPORT_LINK"
-              class="inline-flex mt-4 items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-primary/30"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Open Example PDF <span class="material-symbols-outlined">open_in_new</span>
-            </a>
-            <p class="mt-4 text-xs text-slate-500 dark:text-slate-400">
-              Tip: create a simple 5–7 page PDF in Canva and export it.
-            </p>
-          </div>
+    <!-- Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+      <!-- Example Report Card -->
+      <div id="example-report" class="glass-card p-8 rounded-2xl text-center h-full flex flex-col justify-between">
+        <div>
+          <h3 class="text-2xl font-black mb-3">Example Report</h3>
+          <p class="text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
+            Open a sample PDF to see the format and detail level.
+          </p>
         </div>
-      </section>
 
-      <!-- Upload Section (Form CTA) -->
-      <section class="py-24 bg-background-light dark:bg-slate-900/30" id="upload">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-10">
-            <h2 class="text-3xl md:text-4xl font-black mb-4">Upload Your Profile</h2>
-            <p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-              After purchase, upload screenshots/photos and we’ll email your audit report to you.
-            </p>
-          </div>
-
-          <div class="max-w-2xl mx-auto glass-card p-8 rounded-2xl text-center">
-            <a
-              href="REPLACE_ME_UPLOAD_FORM_LINK"
-              class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white px-10 py-5 rounded-2xl text-xl font-bold transition-all shadow-2xl shadow-primary/30"
-            >
-              Upload Profile <span class="material-symbols-outlined">cloud_upload</span>
-            </a>
-            <p class="mt-4 text-xs text-slate-500 dark:text-slate-400">
-              Upload should include: profile screenshots + 6–12 photos you’re considering.
-            </p>
-          </div>
+        <div class="mt-8">
+          <a
+            href="REPLACE_ME_EXAMPLE_REPORT_LINK"
+            class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-primary/30"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open Example PDF <span class="material-symbols-outlined">open_in_new</span>
+          </a>
+          <p class="mt-4 text-xs text-slate-500 dark:text-slate-400">
+            Tip: create a simple 5–7 page PDF in Canva and export it.
+          </p>
         </div>
-      </section>
+      </div>
 
+      <!-- Upload Card -->
+      <div id="upload" class="glass-card p-8 rounded-2xl text-center h-full flex flex-col justify-between">
+        <div>
+          <h3 class="text-2xl font-black mb-3">Upload Your Profile</h3>
+          <p class="text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
+            After purchase, upload screenshots/photos and we’ll email your audit report to you.
+          </p>
+        </div>
+
+        <div class="mt-8">
+          <a
+            href="REPLACE_ME_UPLOAD_FORM_LINK"
+            class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white px-10 py-5 rounded-2xl text-xl font-bold transition-all shadow-2xl shadow-primary/30"
+          >
+            Upload Profile <span class="material-symbols-outlined">cloud_upload</span>
+          </a>
+          <p class="mt-4 text-xs text-slate-500 dark:text-slate-400">
+            Upload should include: profile screenshots + 6–12 photos you’re considering.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      
       <!-- Pricing Section -->
       <section class="py-24 bg-background-light dark:bg-slate-900/30" id="pricing">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
