@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Eros</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: { extend: { fontFamily: { display: ["Inter", "sans-serif"] } } },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 font-display">
+    <main class="max-w-3xl mx-auto px-6 py-14">
+      <a href="index.html" class="text-sm text-slate-300 hover:text-white underline">← Back to site</a>
+
+      <h1 class="text-4xl font-black mt-6">Contact</h1>
+      <p class="text-slate-300 mt-3">Questions about your order or upload? Email us.</p>
+
+      <div class="mt-10 glass-card p-8 rounded-2xl border border-white/10">
+        <p class="text-slate-200">
+          Email:
+          <a class="underline" href="mailto:REPLACE_ME_CONTACT_EMAIL">REPLACE_ME_CONTACT_EMAIL</a>
+        </p>
+
+        <p class="text-xs text-slate-400 mt-4">
+          Tip: include your payment email and the name you used on the upload form so we can find your order quickly.
+        </p>
+      </div>
+    </main>
+
+    <style>
+      .glass-card {
+        background: rgba(255, 46, 84, 0.05);
+        backdrop-filter: blur(12px);
+      }
+    </style>
+  </body>
+</html>
